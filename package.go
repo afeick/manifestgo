@@ -313,6 +313,7 @@ func ReadPkgFile(name string) (*Package, error) {
 	}
 
 	p := &Package{
+		hashType: sha256.Size,
 		Hashes: []hash.Hash{shaSum},
 		Size:   fstat.Size(),
 	}
