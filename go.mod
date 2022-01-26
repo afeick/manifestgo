@@ -1,4 +1,4 @@
-module github.com/dbyington/manifestgo
+module github.com/afeick/manifestgo
 
 go 1.15
 
